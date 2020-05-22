@@ -25,7 +25,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         }
         
-        //ロケーションマネージャ
+        //ロケーションマネージャの設定
         self.locationManager.requestWhenInUseAuthorization()
         let status = CLLocationManager.authorizationStatus()
         if status == .authorizedWhenInUse {
